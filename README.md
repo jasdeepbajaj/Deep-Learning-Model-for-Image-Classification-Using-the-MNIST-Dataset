@@ -6,9 +6,6 @@ This project focuses on developing a deep learning model for image classificatio
 ## Data Description
 The MNIST dataset, integral to machine learning research, includes 70,000 images of handwritten digits (60,000 for training and 10,000 for testing). Each image is a 28x28 pixel grayscale representation of a digit. This dataset is ideal for focusing on learning methodologies due to its simplicity.
 
-- **Training Data Path**: `/content/drive/MyDrive/x_train.npy`
-- **Label Data Path**: `/content/drive/MyDrive/y_train.npy`
-
 ### Data Preprocessing
 Images are normalized and transformed into tensors to facilitate efficient training. This standardization aids in faster learning and model convergence.
 
